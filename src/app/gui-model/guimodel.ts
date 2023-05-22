@@ -68,13 +68,14 @@ export class GuiModel {
                             "type": "okButton",
                             "name": "Ok"
                         },
-                        { 
-                            "id": "group", 
-                            "type": "autocomplete", 
+                        {
+                            "id": "group",
+                            "type": "autocomplete",
                             "name": "Group",
-                            "url": "/group", 
+                            "url": "/group",
                             "form": "GroupForm",
-                            "width": 2 },
+                            "width": 2
+                        },
                     ]
                 },
                 {
@@ -184,6 +185,11 @@ export class GuiModel {
                             "color": "wisteria",
                             "page": "groupspage",
                         },
+                        { "type": "button", 
+                        "name": "Activities", 
+                        "icon": "smiley",
+                        "color": "green", 
+                        "page": "activitiespage", },
                     ]
                 },
                 {
@@ -260,9 +266,9 @@ export class GuiModel {
                         "search": true,
                         "url": "/group",
                         "form": {
-                        "form": "GroupForm"
+                            "form": "GroupForm"
                         }
-                        },
+                    },
                     ]
                 }
             ]
